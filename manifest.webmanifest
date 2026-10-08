@@ -1,0 +1,87 @@
+{
+  "id": "./",
+  "name": "Maths With SB — Sir Saud Barlas",
+  "short_name": "Maths With SB",
+  "description": "O & A Level Mathematics with Sir Saud Barlas: past papers, mark schemes, examiner reports, the Maths Lab and the YKW Calculator.",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "orientation": "any",
+  "background_color": "#0b0d1a",
+  "theme_color": "#0b0d1a",
+  "lang": "en",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Paper Vault",
+      "short_name": "Papers",
+      "url": "./#vault",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "YKW Calculator",
+      "short_name": "Calculator",
+      "url": "./ykw.html",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Maths Lab",
+      "short_name": "Lab",
+      "url": "./#lab",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Contact Sir Saud",
+      "short_name": "Contact",
+      "url": "./#contact",
+      "icons": [
+        {
+          "src": "icons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

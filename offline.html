@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Offline — Maths With SB</title><meta name="theme-color" content="#0b0d1a"><link rel="icon" href="icons/icon-192.png">
+<style>
+:root{--ink:#0b0d1a;--gold:#f0c25e;--text:#f6f3ea;--dim:#a9adc8}
+*{box-sizing:border-box}html,body{height:100%}
+body{margin:0;display:grid;place-items:center;padding:24px;background:radial-gradient(70vmax 50vmax at 50% 0%,#1b2040,var(--ink) 60%);color:var(--text);font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;text-align:center}
+.card{max-width:420px;display:grid;gap:16px;justify-items:center}
+img{width:84px;height:84px;clip-path:polygon(20px 0,100% 0,100% calc(100% - 20px),calc(100% - 20px) 100%,0 100%,0 20px)}
+h1{margin:0;font-size:1.9rem;letter-spacing:-.03em;line-height:1.1}
+p{margin:0;color:var(--dim)}
+.row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:6px}
+a,button{font:inherit;font-weight:700;font-size:14px;height:48px;padding:0 20px;display:inline-flex;align-items:center;border:0;cursor:pointer;text-decoration:none;
+  clip-path:polygon(12px 0,100% 0,100% calc(100% - 12px),calc(100% - 12px) 100%,0 100%,0 12px)}
+button{background:linear-gradient(120deg,var(--gold),#ffe2a0);color:#14172e}
+a{background:rgba(255,255,255,.08);color:var(--text)}
+</style></head>
+<body><main class="card">
+<img src="icons/icon-192.png" alt="">
+<h1>You're offline.</h1>
+<p>This page needs the internet. The YKW Calculator still works without it, and everything else comes back as soon as you reconnect.</p>
+<div class="row"><button onclick="location.reload()">Try again</button><a href="ykw.html">Open YKW Calculator</a></div>
+</main></body></html>
